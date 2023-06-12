@@ -1,0 +1,26 @@
+.contactsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+.deleteButton {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.deleteButton:hover {
+  background-color: #c62828;
+}

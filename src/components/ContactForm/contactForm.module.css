@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input {
+  height: 30px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 300ms;
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #057ed4;
+}
+
